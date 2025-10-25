@@ -11,6 +11,10 @@ switch ($path) {
         include_once '../templates/home.php';
         break;
 
+    case '/taskr/about':
+        include_once '../templates/about.php';
+        break;
+
     default:
         http_response_code(404);
         include_once '../templates/404.php';

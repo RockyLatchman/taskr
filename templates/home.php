@@ -1,7 +1,7 @@
 
 <header>
     <div class="logotype">
-       <h1>Taskr</h1>
+        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
     <?php include_once 'includes/menu.php'; ?>
 </header>
