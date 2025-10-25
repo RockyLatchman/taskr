@@ -4,7 +4,7 @@
 $request = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
 $path = parse_url($request, PHP_URL_PATH);
-include_once '../templates/header.php';
+include_once '../templates/includes/header.php';
 
 switch ($path) {
     case '/taskr/':
@@ -18,4 +18,4 @@ switch ($path) {
 
 }
 
-include_once '../templates/footer.php';
+include_once '../templates/includes/footer.php';
