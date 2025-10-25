@@ -15,6 +15,10 @@ switch ($path) {
         include_once '../templates/about.php';
         break;
 
+    case '/taskr/top-careers':
+        include_once '../templates/top-careers.php';
+        break;
+
     default:
         http_response_code(404);
         include_once '../templates/404.php';
