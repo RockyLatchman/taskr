@@ -55,6 +55,10 @@ switch ($path) {
         }
         break;
 
+    case '/taskr/employer/dashboard':
+        include_once '../templates/employers/dashboard.php';
+        break;
+
     default:
         http_response_code(404);
         include_once '../templates/404.php';
