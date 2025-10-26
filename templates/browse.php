@@ -33,19 +33,19 @@
           <h4>About position</h4>
           <p>
               An AI and Machine Learning (ML) Specialist designs, develops, and implements intelligent systems that can learn from data to solve complex business
-              problems. The career outlook is exceptionally strong due to explosive growth in AI adoption across nearly every industry. Specialists can expect high
+              problems. The career outlook is exceptionally strong due to explosive growth in AI adoption across nearly every industry. Specialists can expect high
               demand, competitive salaries, and diverse career path
           </p>
           <h4>Responsibilities</h4>
           <p>
               An AI and Machine Learning (ML) Specialist designs, develops, and implements intelligent systems that can learn from data to solve complex business
-              problems. The career outlook is exceptionally strong due to explosive growth in AI adoption across nearly every industry. Specialists can expect high
+              problems. The career outlook is exceptionally strong due to explosive growth in AI adoption across nearly every industry. Specialists can expect high
               demand, competitive salaries, and diverse career path
           </p>
           <h4>Requirements</h4>
           <p>
               An AI and Machine Learning (ML) Specialist designs, develops, and implements intelligent systems that can learn from data to solve complex business
-              problems. The career outlook is exceptionally strong due to explosive growth in AI adoption across nearly every industry. Specialists can expect high
+              problems. The career outlook is exceptionally strong due to explosive growth in AI adoption across nearly every industry. Specialists can expect high
               demand, competitive salaries, and diverse career path
           </p>
           <h4>Benefits</h4>
@@ -58,6 +58,30 @@
             <li><a href="http://localhost/taskr/company/profile/">View companies profile</a></li>
            <li><a href="http://localhost/taskr/company/uuid/apply">Apply for this position</a></li>
           </ul>
+          <div class="company-details">
+            <header>
+                <h3>CodeExpo Ltd</h3>
+                <p>CodeExpo Ltd is connects job seekers with their dream career and helps companies</p>
+                <p>20 - 40 employees</p>
+                <ul>
+                  <li>Austin Tx</li>
+                  <li>20-40</li>
+                  <li>Job category</li>
+                </ul>
+                <div><i class="fa-solid fa-bookmark"></i></div>
+            </header>
+            <dl>
+               <dt>Founder</dt>
+               <dd><img src="" alt=""></dd>
+               <dd>Danny greene</dd>
+               <dd>CEO</dd>
+               <dd>Austin Tx</dd>
+            </dl>
+            <ul>
+              <li><a href="">Return to job</a></li>
+              <li><a href="">Apply for this position</a></li>
+            </ul>
+          </div>
        </div>
        </article>
        <article>
