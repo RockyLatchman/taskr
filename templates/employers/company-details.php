@@ -8,7 +8,7 @@
 <main>
     <section>
        <h1>Company details</h1>
-       <form method="POST">
+       <form method="POST" action="/taskr/registration/complete">
            <h3>Company details</h3>
            <label for="companyname">Company name</label>
            <input type="text" name="companyname" id="companyname">

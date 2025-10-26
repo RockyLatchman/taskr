@@ -1,6 +1,6 @@
 <?php
-#ini_set('display_errors', '1');
-#error_reporting(E_ALL);
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
 $request = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
 $path = parse_url($request, PHP_URL_PATH);
@@ -45,6 +45,14 @@ switch ($path) {
 
     case '/taskr/register/company-details':
         include_once '../templates/employers/company-details.php';
+        break;
+
+    case '/taskr/registration/complete':
+        include_once '../templates/employers/registered.php';
+        if (isset($_POST['save-details'])) {
+            header('Location: /taskr/registration/complete');
+            exit();
+        }
         break;
 
     default:
