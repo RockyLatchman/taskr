@@ -17,7 +17,7 @@
            <label for="password">Password</label>
            <input type="password" name="password" id="password">
            <span><a href="">Forgot password?</a></span>
-           <input type="submit" name="submit" value="Sign up">
+           <input type="submit" name="next" value="Next">
            <span>Already have an account? <a href="/taskr/employer/sign-in">Sign in</a></span>
        </form>
     </section>

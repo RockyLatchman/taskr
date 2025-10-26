@@ -29,7 +29,20 @@ switch ($path) {
 
     case '/taskr/register/employer':
         include_once '../templates/employers/register.php';
+        if (isset($_POST['next'])) {
+            header('Location: /taskr/register/founder');
+            exit();
+        }
         break;
+
+    case '/taskr/register/founder':
+        include_once '../templates/employers/founder.php';
+        if (isset($_POST['continue'])) {
+            header('Location: /taskr/register/company-details');
+            exit();
+        }
+        break;
+
 
     default:
         http_response_code(404);
