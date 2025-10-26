@@ -43,6 +43,9 @@ switch ($path) {
         }
         break;
 
+    case '/taskr/register/company-details':
+        include_once '../templates/employers/company-details.php';
+        break;
 
     default:
         http_response_code(404);
