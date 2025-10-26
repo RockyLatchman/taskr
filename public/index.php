@@ -27,6 +27,10 @@ switch ($path) {
         include_once '../templates/employers.php';
         break;
 
+    case '/taskr/register/employer':
+        include_once '../templates/employers/register.php';
+        break;
+
     default:
         http_response_code(404);
         include_once '../templates/404.php';
