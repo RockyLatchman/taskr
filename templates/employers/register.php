@@ -3,7 +3,7 @@
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <?php include_once  '../templates/includes/menu.php'; ?>
+    <menu><li><a href="/taskr/">Return home</a></li></menu>
 </header>
 <main>
     <section>
