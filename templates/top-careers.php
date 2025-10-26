@@ -31,7 +31,7 @@
             </li>
             <li>
                 High compensation: Due to high demand, salaries are very competitive. For example, the average annual salary for an ML engineer in the U.S. is
-                 approximately $168,730, with salaries at top tech companies reaching over $250,000 for senior roles.
+                approximately $168,730, with salaries at top tech companies reaching over $250,000 for senior roles.
             </li>
             <li>
                 Widespread adoption: AI jobs are expanding beyond traditional tech hubs into various industries, such as healthcare, finance, manufacturing,
