@@ -27,6 +27,10 @@ switch ($path) {
         require '../templates/employers.php';
         break;
 
+    case '/taskr/careers':
+        require '../templates/careers.php';
+        break;
+
     case '/taskr/register/employer':
         require '../templates/employers/onboarding/register.php';
         if (isset($_POST['next'])) {
