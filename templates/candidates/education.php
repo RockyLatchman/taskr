@@ -7,7 +7,7 @@
 </header>
 <main>
     <section>
-       <h1>Employer account</h1>
+       <h1>Setup profile 2/4</h1>
        <form method="POST">
            <h3>Education</h3>
            <label for="education">University or community college</label>

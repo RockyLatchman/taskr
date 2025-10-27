@@ -7,7 +7,7 @@
 </header>
 <main>
     <section>
-       <h1>Employer account</h1>
+       <h1>Job seeker</h1>
        <form method="POST">
            <h3>Create Account</h3>
            <label for="fullname">Fullname</label>
