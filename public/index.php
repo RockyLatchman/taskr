@@ -91,6 +91,13 @@ switch ($path) {
         }
         break;
 
+    case '/taskr/register/education':
+        require '../templates/candidates/education.php';
+        if (isset($_POST[''])) {
+            header('Location: /taskr/register/work-experience');
+            exit();
+        }
+        break;
 
 
 
