@@ -30,7 +30,7 @@
                     <img src="/taskr/public/images/user-001.png" alt="Employee image">
                 </div>
                 <div class="right-column">
-                    <h4><a href="">Tyson Whitmore</a></h4>
+                    <h4><a href="/taskr/employer/message">Tyson Whitmore</a></h4>
                     <p>Software Engineer</p>
                     <p>Los Angeles</p>
                 </div>
@@ -47,7 +47,7 @@
                <img src="/taskr/public/images/user-002.png" alt="Employee image">
             </div>
             <div class="right-column">
-            <h4><a href="">Adam White</a></h4>
+            <h4><a href="/taskr/employer/message">Adam White</a></h4>
                 <p>Product Designer</p>
                 <p>San Diego</p>
             </div>
@@ -64,7 +64,7 @@
                 <img src="/taskr/public/images/user-003.png" alt="Employee image">
             </div>
             <div class="right-column">
-                <h4><a href="">Whitney Washington</a></h4>
+                <h4><a href="/taskr/employer/message">Whitney Washington</a></h4>
                 <p>Digital Marketer</p>
                 <p>Miami</p>
             </div>
@@ -81,7 +81,7 @@
                 <img src="/taskr/public/images/user-001.png" alt="Employee image">
             </div>
             <div class="right-column">
-                <h4><a href="">Evan George</a></h4>
+                <h4><a href="/taskr/employer/message">Evan George</a></h4>
                 <p>Software Engineer</p>
                 <p>Seattle</p>
             </div>
@@ -98,7 +98,7 @@
                     <img src="/taskr/public/images/user-001.png" alt="Employee image">
                 </div>
                 <div class="right-column">
-                    <h4><a href="">Walter Watts</a></h4>
+                    <h4><a href="/taskr/employer/message">Walter Watts</a></h4>
                     <p>Graphic Designer</p>
                     <p>Los Angeles</p>
                 </div>
