@@ -3,7 +3,7 @@
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <?php include_once 'includes/menu.php'; ?>
+    <?php require 'includes/menu.php'; ?>
 </header>
 <main>
    <header>

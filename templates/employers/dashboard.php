@@ -3,7 +3,7 @@
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <?php require 'menu.php'; ?>
 </header>
 <main>
     <section>
