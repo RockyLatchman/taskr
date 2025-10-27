@@ -107,7 +107,13 @@ switch ($path) {
         }
         break;
 
-
+    case '/taskr/register/job-position':
+        require '../templates/candidates/job-position.php';
+        if (isset($_POST['continue'])) {
+            header('Location: /taskr/register/completed');
+            exit();
+        }
+        break;
 
 
 
