@@ -75,9 +75,30 @@ switch ($path) {
         require '../templates/employers/message.php';
         break;
 
-    case '/taskr/register/candidates':
+    case '/taskr/register/candidate':
         require '../templates/candidates/register.php';
+        if (isset($_POST['next'])) {
+            header('Location: /taskr/register/add-photo');
+            exit();
+        }
         break;
+
+    case '/taskr/register/add-photo':
+        require '../templates/candidates/photo.php';
+        if (isset($_POST['save-image'])) {
+            header('Location: /taskr/register/education');
+            exit();
+        }
+        break;
+
+
+
+
+
+
+
+
+
 
     default:
         http_response_code(404);

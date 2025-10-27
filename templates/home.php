@@ -11,7 +11,7 @@
          <p>We are the premier platform connecting top talent with innovative companies</p>
          <ul>
            <li><a href="http://localhost/taskr/register/employer">I’m looking to hire</a></li>
-           <li><a href="http://localhost/taskr/register/candidates">I’m looking for work</a></li>
+           <li><a href="http://localhost/taskr/register/candidate">I’m looking for work</a></li>
          </ul>
     </section>
     <section>
