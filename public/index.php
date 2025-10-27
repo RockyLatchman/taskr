@@ -59,7 +59,9 @@ switch ($path) {
         require '../templates/employers/dashboard.php';
         break;
 
-
+    case '/taskr/employer/add/listing':
+        require '../templates/employers/add-listing.php';
+        break;
 
     default:
         http_response_code(404);
