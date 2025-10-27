@@ -63,6 +63,10 @@ switch ($path) {
         require '../templates/employers/add-listing.php';
         break;
 
+    case '/taskr/employer/browse':
+        require '../templates/employers/candidates.php';
+        break;
+
     default:
         http_response_code(404);
         require '../templates/404.php';

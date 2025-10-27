@@ -6,7 +6,7 @@
         <menu>
            <li><a href="/taskr/employer/job-listings" id="job-listing">job listings</a></li>
            <menu>
-              <li><a href="/taskr/employer/view/listing">View listings</a></li>
+              <li><a href="/taskr/employer/view/listing">Review listings</a></li>
               <li><a href="/taskr/employer/add/listing">Add listings</a></li>
            </menu>
         </menu>
