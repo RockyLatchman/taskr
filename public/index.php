@@ -75,8 +75,10 @@ switch ($path) {
         require '../templates/employers/message.php';
         break;
 
+
+
     case '/taskr/register/candidate':
-        require '../templates/candidates/register.php';
+        require '../templates/candidates/onboarding/register.php';
         if (isset($_POST['next'])) {
             header('Location: /taskr/register/add-photo');
             exit();
@@ -84,7 +86,7 @@ switch ($path) {
         break;
 
     case '/taskr/register/add-photo':
-        require '../templates/candidates/photo.php';
+        require '../templates/candidates/onboarding/photo.php';
         if (isset($_POST['save-image'])) {
             header('Location: /taskr/register/education');
             exit();
@@ -92,7 +94,7 @@ switch ($path) {
         break;
 
     case '/taskr/register/education':
-        require '../templates/candidates/education.php';
+        require '../templates/candidates/onboarding/education.php';
         if (isset($_POST['continue'])) {
             header('Location: /taskr/register/work-experience');
             exit();
@@ -100,7 +102,7 @@ switch ($path) {
         break;
 
     case '/taskr/register/work-experience':
-        require '../templates/candidates/work-experience.php';
+        require '../templates/candidates/onboarding/work-experience.php';
         if (isset($_POST['continue'])){
             header('Location: /taskr/register/job-position');
             exit();
@@ -108,11 +110,15 @@ switch ($path) {
         break;
 
     case '/taskr/register/job-position':
-        require '../templates/candidates/job-position.php';
+        require '../templates/candidates/onboarding/job-position.php';
         if (isset($_POST['continue'])) {
             header('Location: /taskr/register/completed');
             exit();
         }
+        break;
+
+    case '/taskr/register/completed':
+        require '../templates/candidates/onboarding/completed.php';
         break;
 
 
