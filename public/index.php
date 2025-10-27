@@ -28,7 +28,7 @@ switch ($path) {
         break;
 
     case '/taskr/register/employer':
-        require '../templates/employers/register.php';
+        require '../templates/employers/onboarding/register.php';
         if (isset($_POST['next'])) {
             header('Location: /taskr/register/founder');
             exit();
@@ -36,7 +36,7 @@ switch ($path) {
         break;
 
     case '/taskr/register/founder':
-        require '../templates/employers/founder.php';
+        require '../templates/employers/onboarding/founder.php';
         if (isset($_POST['continue'])) {
             header('Location: /taskr/register/company-details');
             exit();
@@ -44,11 +44,11 @@ switch ($path) {
         break;
 
     case '/taskr/register/company-details':
-        require '../templates/employers/company-details.php';
+        require '../templates/employers/onboarding/company-details.php';
         break;
 
     case '/taskr/registration/complete':
-        require '../templates/employers/registered.php';
+        require '../templates/employers/onboarding/registered.php';
         if (isset($_POST['save-details'])) {
             header('Location: /taskr/registration/complete');
             exit();
@@ -74,8 +74,6 @@ switch ($path) {
     case '/taskr/employer/message':
         require '../templates/employers/message.php';
         break;
-
-
 
     case '/taskr/register/candidate':
         require '../templates/candidates/onboarding/register.php';
