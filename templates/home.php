@@ -7,12 +7,14 @@
 </header>
 <main>
     <section>
+       <div>
          <h1>Find your dream job </h1>
          <p>We are the premier platform connecting top talent with innovative companies</p>
          <ul>
            <li><a href="http://localhost/taskr/register/employer">I’m looking to hire</a></li>
            <li><a href="http://localhost/taskr/register/candidate">I’m looking for work</a></li>
          </ul>
+         </div>
     </section>
     <section>
         <h2>Find a Job You'll Love</h2>
@@ -56,13 +58,14 @@
             the platform and visibility to attract talent that aligns with your mission and culture.
         </p>
         <a href="">Learn more for employers</a>
+        <div><span>By the Numbers         10,000+ Careers Advanced       5,000+ Companies Hired     50,000+ Meaningful Connections Made</span></div>
+
     </section>
     <footer>
-        <div><span>By the Numbers         10,000+ Careers Advanced       5,000+ Companies Hired     50,000+ Meaningful Connections Made</span></div>
         <div id="newsletter">
-            <h4>Sign up for our newsletter</h4>
-            <p>We'll send you a newsletter every Thursday with the latest remote jobs</p>
             <form method="POST">
+                <h4>Sign up for our newsletter</h4>
+                <p>We'll send you a newsletter every Thursday with the latest remote jobs</p>
                 <input type="email" name="email" placeholder="youremail@example.com" required>
                 <input type="submit" name="submit" value="Subscribe">
             </form>
