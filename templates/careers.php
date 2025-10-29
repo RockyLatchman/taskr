@@ -1,9 +1,13 @@
-<body style="background: #292AF9">
+<body style="background: #292AF9;">
 <header class="top-menu">
     <div class="logotype">
-       <h1><a href="/taskr/">Taskr</a></h1>
+       <h1><a href="/taskr/" style="color: #fafafa;padding: 8px;">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return to home</a></li></menu>
+    <menu style="margin: 30px 75px auto 0 !important;border: 1px solid #fafafa;border-radius: 8px;">
+        <li>
+            <a href="/taskr/" style="color: #fafafa;">Return to home</a>
+        </li>
+    </menu>
 </header>
 <div id="career-container">
 <main>

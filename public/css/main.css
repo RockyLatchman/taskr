@@ -774,12 +774,12 @@ width: 90%;
 }
 
 .top-menu .logotype h1 a {
-color: var(--off-white);
+color: var(--electric-blue);
 }
 
 .top-menu menu {
 width: 10%;
-border: 1px solid var(--off-white);
+border: 1px solid var(--electric-blue);
 border-radius: var(--corner-radius);
 margin: 30px 75px auto 0 !important;
 padding: 8px;
@@ -793,7 +793,7 @@ text-align: center;
 .top-menu menu li a {
 font: var(--primary-paragraph-text);
 font-weight: 600;
-color: var(--off-white);
+color: var(--electric-blue);
 font: 700 0.8em "Mulish", sans-serif;
 text-decoration: none;
 }
@@ -809,11 +809,10 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
-width: 80%;
+width: 100%;
 color: var(--off-white);
 margin: 25px auto 0 auto;
 padding-bottom: 100px;
-
 }
 
 #career-container #content img {
@@ -831,6 +830,7 @@ font-size: 1.2em;
 font-weight: 700;
 color: var(--off-white);
 padding: 25px 0;
+margin-left: 50px;
 }
 
 #career-container .job-card {
@@ -1049,11 +1049,88 @@ text-align: left;
 font-weight: 500;
 }
 
+/* register */
+
+.form-container {
+width: 55%;
+margin: 3.5% auto 0 auto;
+}
+
+.form-container h1 {
+font: 800 2.3em "montserrat", sans-serif;
+color: var(--electric-blue);
+text-align: center;
+}
+
+.form-container form {
+display: block;
+width: 55%;
+margin: 15px auto 0 auto;
+padding: 25px 35px;
+border: 1px solid var(--electric-blue);
+border-radius: var(--corner-radius);
+}
+
+.form-container form h3 {
+width: 100%;
+margin: 15px auto 25px auto;
+font: var(--large-heading);
+font-size: 1.2em;
+font-weight: 700;
+color: var(--electric-blue);
+}
+
+.form-container form label {
+display: block;
+width: 100%;
+margin: 10px 0 5px 0;
+text-align: left;
+font: var(--menu-text);
+color: var(--electric-blue);
+}
+
+.form-container form input {
+width: 100%;
+height: 35px;
+border-radius: var(--corner-radius);
+border: var(--home-blue-border);
+margin: 0 auto 10px auto;
+outline: transparent;
+}
+
+.form-container form span {
+display: inline-block;
+width: 100%;
+margin: 7px auto 15px auto;
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+text-align: left;
+}
+
+.form-container form span:last-of-type {
+text-align: center;
+}
+
+
+.form-container form span a {
+width: 65%;
+margin: 5% auto 0 auto;
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+font: 700 0.9em "Mulish", sans-serif;
+}
+
+.form-container form input[type='submit'] {
+cursor: pointer;
+color: var(--electric-blue);
+height: 40px;
+}
 
 
 
-
-
+/* sign in  */
 
 
 
