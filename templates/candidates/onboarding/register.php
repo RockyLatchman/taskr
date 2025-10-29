@@ -8,7 +8,7 @@
 <div class="form-container">
 <main>
     <section>
-       <h1>Job seeker</h1>
+       <h2>Setup profile 1/5</h2>
        <form method="POST">
            <h3>Create Account</h3>
            <label for="fullname">Fullname</label>
