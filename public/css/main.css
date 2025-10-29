@@ -93,8 +93,7 @@ nav:last-of-type menu li:first-of-type {
 margin-right: 10px;
 }
 
-#home-container main section h1,
-#jobs-container main #top h1 {
+#home-container main section h1 {
 font: 800 3em "montserrat", sans-serif;
 color: var(--electric-blue);
 text-align: center;
@@ -396,6 +395,12 @@ width: 65%;
 margin: 0 auto;
 }
 
+#jobs-container main #top h1 {
+font: 800 2.3em "montserrat", sans-serif;
+color: var(--electric-blue);
+text-align: center;
+}
+
 #jobs-container #top {
 display: block;
 width: 100%;
@@ -575,7 +580,7 @@ margin: 5% auto 0 auto;
 }
 
 #employers-container main section h1 {
-font: 800 3em "montserrat", sans-serif;
+font: 800 2.3em "montserrat", sans-serif;
 color: var(--electric-blue);
 text-align: center;
 padding-bottom: 35px;
@@ -639,7 +644,7 @@ margin: 5% auto 0 auto;
 }
 
 #top-careers-container h1 {
-font: 800 3em "montserrat", sans-serif;
+font: 800 2.3em "montserrat", sans-serif;
 color: var(--electric-blue);
 text-align: center;
 }
@@ -868,6 +873,198 @@ padding: 7px 25px;
 border: var(--home-white-border);
 border-radius: var(--corner-radius);
 }
+
+/* About */
+
+#about-container {
+width: 65%;
+margin: 5% auto 0 auto;
+}
+
+#about-container h1 {
+font: 800 2.3em "montserrat", sans-serif;
+color: var(--electric-blue);
+text-align: center;
+}
+
+#about-container main section h4 {
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+line-height: 2em;
+text-align: left;
+border-bottom: none;
+}
+
+#about-container main section:nth-child(1) p {
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+line-height: 2em;
+text-align: center;
+border-bottom: none;
+}
+
+#about-container main .accordion-panel p {
+text-align: justify;
+border: 1px solid red;
+display: none;
+}
+
+#about-container main section:nth-child(2) p:first-of-type {
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+line-height: 2em;
+text-align: center;
+border-bottom: none;
+}
+
+#about-container .row-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+height: auto;
+margin: 25px auto 0 auto;
+}
+
+.row-container .team-member-details {
+width: 25%;
+height: auto;
+text-align: center;
+font: var(--menu-text);
+color: var(--electric-blue);
+margin-right: 20px;
+}
+
+.row-container .team-member-details ul {
+width: 100%;
+height: 20px;
+}
+
+.row-container .team-member-details ul li {
+list-style-type: none;
+font: var(--menu-text);
+font-size: 1em;
+font-weight: 900;
+width: 100%;
+height: auto;
+}
+
+.row-container .team-member-details ul li:nth-child(even) {
+font-weight: 500;
+}
+
+#bottom p {
+font: var(--primary-paragraph-text);
+font-size: 0.9em;
+font-weight: 500;
+line-height: 2em;
+color: var(--electric-blue);
+width: 100%;
+margin: 0 auto;
+}
+
+#bottom p:nth-child(n+3) {
+margin-top: 15px;
+}
+
+#about-container main section .accordion-panel {
+width: 100%;
+height: 75px;
+}
+
+#about-container main section .accordion-panel header {
+width: 100%;
+height: 75px;
+border-bottom: 1px solid var(--mid-gray);
+}
+
+#about-container main section h2 {
+width: 100%;
+font: var(--large-heading);
+font-size: 1.2em;
+font-weight: 700;
+color: var(--electric-blue);
+text-align: left;
+padding: 25px 0;
+}
+
+#about-container main section:last-of-type h2 {
+font-size: 1.8em;
+text-align: center;
+padding: 0;
+margin-top: 75px;
+}
+
+#about-container main section:last-of-type p {
+margin-bottom: 15px;
+}
+
+#about-container main .accordion-panel header div {
+width: 5%;
+height: auto;
+line-height: 2em !important;
+cursor: pointer;
+font: var(--large-heading);
+font-weight: 300;
+color: var(--electric-blue);
+text-align: center;
+padding: 5px 0;
+}
+
+#about-container main section:last-of-type {
+padding-bottom: 100px;
+}
+
+#about-container #bottom #bottom-list  {
+margin-top: 40px;
+text-align: left;
+}
+
+#about-container #bottom #bottom-list li {
+display: inline;
+padding: 15px 25px;
+border: var(--home-blue-border);
+border-radius: var(--corner-radius);
+width: 100%;
+}
+
+#about-container #bottom #bottom-list li:last-of-type {
+margin-left: 15px;
+}
+
+
+#about-container #bottom #bottom-list li a {
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+font: 700 0.8em "Mulish", sans-serif;
+text-decoration: none;
+}
+
+#about-container #bottom p:last-of-type {
+text-align: left;
+font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 1440px) {

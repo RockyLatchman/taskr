@@ -5,6 +5,7 @@
     </div>
     <?php require 'includes/menu.php'; ?>
 </header>
+<div id="about-container">
 <main>
     <section>
        <h1>Connecting Talent with Opportunity</h1>
@@ -78,7 +79,7 @@
           </p>
        </div>
     </section>
-    <section>
+    <section id="bottom">
         <h2>Meet the Team</h2>
         <p>The People Behind the Platform</p>
         <p>
@@ -87,35 +88,44 @@
         </p>
         <div class="row-container">
            <div class="team-member-details">
-               <img src="http://localhost/taskr/public/images/" alt="Image of..">
-               <p>Amy Johnston</p>
-               <p>Art Director</p>
+               <img src="http://localhost/taskr/public/images/profile-2.png" alt="Image of..">
+               <ul>
+                 <li>Amy Johnston</li>
+                 <li>Art Director</li>
+               </ul>
            </div>
            <div class="team-member-details">
-               <img src="http://localhost/taskr/public/images/" alt="Image of..">
-               <p>Alexis Mott</p>
-               <p>Head of Marketing</p>
+               <img src="http://localhost/taskr/public/images/profile-2.png" alt="Image of..">
+               <ul>
+                <li>Alexis Mott</li>
+                <li>Head of Marketing</li>
+              </ul>
            </div>
            <div class="team-member-details">
-               <img src="http://localhost/taskr/public/images/" alt="Image of..">
-               <p>Jon Watts</p>
-               <p>Web Developer</p>
+               <img src="http://localhost/taskr/public/images/profile-2.png" alt="Image of..">
+               <ul>
+                 <li>Jon Watts</li>
+                 <li>Web Developer</li>
+               </ul>
            </div>
            <div class="team-member-details">
-               <img src="http://localhost/taskr/public/images/" alt="Image of..">
-               <p>Danny Greene</p>
-               <p>CEO</p>
+               <img src="http://localhost/taskr/public/images/profile-2.png" alt="Image of..">
+               <ul>
+                <li>Danny Greene</li>
+                <li>CEO</li>
+               </ul>
            </div>
         </div>
         <h2>Join Our Community</h2>
         <p>
-           Taskr is more than a tool; it's a growing community of ambitious professionals and forward-thinking companies. We are thrilled to be a part of
+           Taskr is more than a tool, it's a growing community of ambitious professionals and forward-thinking companies. We are thrilled to be a part of
            your story whether you’re here to find your next chapter or to write it by hiring an incredible team, we are here to help you succeed.
         </p>
         <p>Ready to take the next step?</p>
-        <ul>
+        <ul id="bottom-list">
           <li><a href="">Search Jobs & Find Your Future</a></li>
           <li><a href="">Post a Job & Find Your Hire</a></li>
         </ul>
     </section>
 </main>
+</div>
