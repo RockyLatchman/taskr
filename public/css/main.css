@@ -93,30 +93,31 @@ nav:last-of-type menu li:first-of-type {
 margin-right: 10px;
 }
 
-main section h1 {
+#home-container main section h1,
+#jobs-container main #top h1 {
 font: 800 3em "montserrat", sans-serif;
 color: var(--electric-blue);
 text-align: center;
 }
 
-main section:first-of-type div {
+#home-container main section:first-of-type div {
 height: 150px;
 margin-top: 125px;
 width: 100%;
 text-align: center;
 }
 
-main section:first-of-type div ul {
+#home-container main section:first-of-type div ul {
 width: 28%;
 margin: 25px auto 0 auto;
 display: inline-block;
 }
 
-main section:first-of-type div ul li:first-child {
+#home-container main section:first-of-type div ul li:first-child {
 margin: 0 15px 0 0;
 }
 
-main section:first-of-type div ul li {
+#home-container main section:first-of-type div ul li {
 display: inline;
 list-style-type: none;
 border: var(--home-blue-border);
@@ -124,45 +125,45 @@ border-radius: var(--corner-radius);
 padding: 10px 15px;
 }
 
-main section:first-of-type div ul li a {
+#home-container main section:first-of-type div ul li a {
 font: 900 0.8em "Mulish", sans-serif;
 color: var(--electric-blue);
 text-decoration: none;
 }
 
-main section:first-of-type div ul li:last-of-type {
+#home-container main section:first-of-type div ul li:last-of-type {
 background: var(--electric-blue);
 }
 
-main section:first-of-type div ul li:last-of-type a {
+#home-container main section:first-of-type div ul li:last-of-type a {
 color: #fafafa;
 }
 
-main section:first-of-type {
+#home-container main section:first-of-type {
 height: 400px;
 }
 
-main section:first-of-type p {
+#home-container main section:first-of-type p {
 font: var(--menu-text);
 color: var(--electric-blue);
 text-align: center;
 margin: 10px 0;
 }
 
-main section:nth-child(2) {
+#home-container main section:nth-child(2) {
 padding: 75px 0 0 0;
 background: var(--electric-blue) url('../images/top_pattern1.png') repeat-x;
 width: 100%;
 height: 350px;
 }
 
-main section:nth-child(2) h2 {
+#home-container main section:nth-child(2) h2 {
 font: var(--large-heading);
 color: #fafafa;
 text-align: center;
 }
 
-main section:nth-child(2) p {
+#home-container main section:nth-child(2) p {
 font: var(--menu-text);
 color: #fafafa;
 text-align: justify;
@@ -171,7 +172,7 @@ margin: 10px auto 0 auto;
 width: 40%;
 }
 
-main section:nth-child(2) a {
+#home-container main section:nth-child(2) a {
 display: block;
 margin: 35px auto 0 auto;
 text-align: center;
@@ -185,7 +186,7 @@ width: 21.5%;
 height: 50px;
 }
 
-.row-container {
+#home-container .row-container {
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -193,31 +194,31 @@ width: 75%;
 margin: 25px auto 0 auto;
 }
 
-.row-item {
+#home-container .row-item {
 width: 40%;
 }
 
-.row-item:first-of-type {
+#home-container .row-item:first-of-type {
 margin-right: 25px;
 }
 
-.row-item p {
+#home-container .row-item p {
 margin-bottom: 75px;
 }
 
-main section:nth-child(3) {
+#home-container main section:nth-child(3) {
 padding: 50px 0 0 0;
 background: var(--light-purple);
 height: 250px;
 }
 
-main section:nth-child(3) h2 {
+#home-container main section:nth-child(3) h2 {
 font: var(--large-heading);
 color: var(--eggplant-purple);
 text-align: center;
 }
 
-main section:nth-child(3) p {
+#home-container main section:nth-child(3) p {
 font: var(--menu-text);
 color: var(--eggplant-purple);
 text-align: justify;
@@ -225,7 +226,7 @@ line-height: 1.4em;
 margin: 10px auto 0 auto;
 }
 
-main section:nth-child(4) {
+#home-container main section:nth-child(4) {
 padding: 105px 0 0 0;
 position: relative;
 top: 0;
@@ -238,7 +239,7 @@ height: 350px;
 text-align: center;
 }
 
-main section:nth-child(4)::before {
+#home-container main section:nth-child(4)::before {
 content: "";
 position: absolute;
 left: 10%;
@@ -250,7 +251,7 @@ background-size: cover;
 clip-path: circle(40% at 60% 75%);
 }
 
-main section:nth-child(4) h2 {
+#home-container main section:nth-child(4) h2 {
 font: var(--large-heading);
 color: #fafafa;
 text-align: center;
@@ -258,7 +259,7 @@ position: relative;
 margin-top: 40px;
 }
 
-main section:nth-child(4) p {
+#home-container main section:nth-child(4) p {
 font: var(--menu-text);
 color: #6567A7;
 text-align: justify;
@@ -268,7 +269,7 @@ width: 47.5%;
 position: relative;
 }
 
-main section:nth-child(4) a {
+#home-container main section:nth-child(4) a {
 display: block;
 margin: 25px auto 0 auto;
 text-align: center;
@@ -283,7 +284,7 @@ height: 50px;
 position: relative;
 }
 
-main section:nth-child(4) div:last-of-type {
+#home-container main section:nth-child(4) div:last-of-type {
 background: var(--electric-blue);
 width: 100%;
 height: 30px;
@@ -291,13 +292,13 @@ position: relative;
 top: 80px;
 }
 
-main section:nth-child(4) div:last-of-type span {
+#home-container main section:nth-child(4) div:last-of-type span {
 font: var(--menu-text);
 color: var(--off-white);
 line-height: 2em;
 }
 
-footer {
+#home-container footer {
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
@@ -307,18 +308,18 @@ height: 350px;
 }
 
 
-footer #newsletter {
+#home-container footer #newsletter {
 width: 50%;
 height: 50vh;
 }
 
-footer #newsletter form {
+#home-container footer #newsletter form {
 width: 65%;
 height: auto;
 margin: 0 auto;
 }
 
-footer #newsletter h4 {
+#home-container footer #newsletter h4 {
 width: 100%;
 font: var(--large-heading);
 font-size: 1.4em;
@@ -326,7 +327,7 @@ color: var(--off-white);
 text-align: center;
 }
 
-footer #newsletter p {
+#home-container footer #newsletter p {
 width: 100%;
 height: auto;
 font: var(--primary-paragraph-text);
@@ -336,37 +337,38 @@ margin: 5px 0;
 text-align: center;
 }
 
-footer #newsletter input::placeholder {
+#home-container footer #newsletter input::placeholder
+{
 padding-left: 5px;
 }
 
-footer #newsletter input {
+#home-container footer #newsletter input {
 border: 1px solid #fff;
 border-radius: var(--corner-radius);
 background: transparent;
 color: #fff;
-width: 95%;
+width: 100%;
 height: 35px;
 margin: 10px 0;
 }
 
-footer #newsletter input[type='submit'] {
+#home-container footer #newsletter input[type='submit'] {
 background: var(--off-white);
 color: var(--dark-blue);
 font: var(--menu-text);
 position: relative;
 top: -55px;
-left: 326px;
-width: 30%;
+left: 330px;
+width: 35%;
 cursor: pointer;
 }
 
-footer #company {
+#home-container footer #company {
 width: 50%;
 height: auto;
 }
 
-footer #company h4 {
+#home-container footer #company h4 {
 width: 100%;
 font: var(--large-heading);
 font-size: 1em;
@@ -375,24 +377,209 @@ text-align: left;
 margin-bottom: 15px;
 }
 
-footer #company menu li {
+#home-container footer #company menu li {
 list-style-type: none;
 padding-bottom: 10px;
 }
 
-footer #company menu li a {
+#home-container footer #company menu li a {
 font: var(--primary-paragraph-text);
 font-weight: 500;
 color: #fff;
 text-decoration: none;
 }
 
+/* Browse jobs */
+
+
+#jobs-container {
+width: 65%;
+margin: 0 auto;
+}
+
+#jobs-container #top {
+display: block;
+width: 100%;
+height: 150px;
+margin: 85px auto 0 auto;
+}
+
+#jobs-container .search {
+width: 65%;
+height: 40px;
+margin: 15px auto 0 auto;
+}
+
+#jobs-container .search input[type='text']::placeholder
+{
+padding-left: 5px;
+font: var(--primary-paragraph-text);
+font-size: 0.9em;
+font-weight: 600;
+color: var(--electric-blue);
+}
+
+#jobs-container .search input[type='text'] {
+border: 1px solid var(--electric-blue);
+border-radius: var(--corner-radius);
+background: transparent;
+color: #fff;
+width: 100%;
+height: 40px;
+margin: 10px 0;
+}
+
+#jobs-container .search input[type='submit'] {
+background: var(--electric-blue);
+color: var(--off-white);
+font: var(--menu-text);
+position: relative;
+top: -51px;
+left: 461px;
+width: 30%;
+height: 40px;
+cursor: pointer;
+border-radius: var(--corner-radius);
+border: none;
+}
+
+#jobs-container main section h2 {
+font: var(--large-heading);
+font-size: 1.7em;
+color: var(--electric-blue);
+text-align: left;
+padding: 10px 0;
+border-bottom: 1px solid var(--mid-gray);
+}
+
+#jobs-container main article {
+width: 100%;
+margin: 25px 0;
+}
+
+#jobs-container main article:last-of-type {
+padding-bottom: 35px;
+}
+
+#jobs-container main article .accordion-panel {
+width: 100%;
+height: 75px;
+}
+
+#jobs-container main article .accordion-panel header {
+width: 100%;
+height: 75px;
+border-bottom: 1px solid var(--mid-gray);
+}
+
+#jobs-container main article .accordion-panel header div:nth-child(odd){
+width: 100%;
+}
+
+#jobs-container main article .accordion-panel header div:nth-child(even) {
+width: 5%;
+height: auto;
+line-height: 2em !important;
+cursor: pointer;
+font: var(--large-heading);
+font-weight: 300;
+color: var(--electric-blue);
+text-align: center;
+}
+
+#jobs-container main article .accordion-panel header h3 {
+font: var(--large-heading);
+font-size: 1.2em;
+color: var(--electric-blue);
+text-align: left;
+padding: 3px 0;
+}
+
+#jobs-container main article .accordion-panel header p {
+width: 100%;
+height: auto;
+font: var(--primary-paragraph-text);
+font-weight: 500;
+color: var(--light-purple);
+text-align: left;
+padding: 0 0 10px 0;
+}
+
+#jobs-container main article .listing-content {
+display: none;
+}
+
+#jobs-container main article .listing-content .listing-header h3 {
+
+}
+
+#jobs-container main article .listing-content .listing-header p:nth-child(1) {
+
+}
+
+#jobs-container main article .listing-content .listing-header p:nth-child(2) {
+
+}
+
+#jobs-container main article .listing-content .listing-header div {
+
+}
+
+#jobs-container main article .listing-content  h4 {
+font: var(--large-heading);
+font-size: 1.2em;
+font-weight: 700;
+color: var(--electric-blue);
+text-align: left;
+padding: 3px 0;
+}
+
+#jobs-container main article .listing-content p {
+font: var(--primary-paragraph-text);
+font-weight: 500;
+color: var(--electric-blue);
+line-height: 2em;
+}
+
+/*
+#jobs-container main article .listing-content ul {
+
+}
+
+#jobs-container main article .listing-content ul:first-child li {
+display: inline-block;
+font: var(--primary-paragraph-text);
+font-weight: 500;
+color: var(--electric-blue);
+}
+
+#jobs-container main article .listing-content ul:nth-last-child li {
+display: inline;
+list-style-type: none;
+font: var(--primary-paragraph-text);
+font-weight: 500;
+color: var(--electric-blue);
+
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1440px) {
-    main section div {
+    #home-container main section div {
         width: 100% !important;
     }
 
-    main section div ul {
+    #home-container main section div ul {
         width: 100% !important;
     }
 
@@ -404,43 +591,43 @@ text-decoration: none;
       width: 15%;
     }
 
-    main section:nth-child(2) p {
+    #home-container main section:nth-child(2) p {
     width: 50%;
     }
 
-    main section:nth-child(2) a {
+    #home-container main section:nth-child(2) a {
     width: 40%;
     }
 
-    main section:nth-child(3) {
+    #home-container main section:nth-child(3) {
     height: 350px;
     }
 
-    .row-container {
+    #home-container .row-container {
     flex-direction: column;
     width: 65% !important;
     }
 
-    main section:nth-child(3) p {
+    #home-container main section:nth-child(3) p {
     width: 100% !important;
     text-align: left;
     }
 
-    .row-item p {
+    #home-container .row-item p {
     margin-bottom: 15px !important;
     width: 100% !important;
     }
 
-    .row-item {
+    #home-container .row-item {
     width: 100% !important;
     margin: 0 auto;
     }
 
-    main section:nth-child(4) a {
+    #home-container main section:nth-child(4) a {
     width: 30% !important;
     }
 
-    main section:nth-child(4) p {
+    #home-container main section:nth-child(4) p {
     width: 60%;
     }
 
@@ -454,41 +641,41 @@ text-decoration: none;
         display: none;
     }
 
-    main section:nth-child(2) p {
+    #home-container main section:nth-child(2) p {
     width: 60%;
     }
 
-    main section:nth-child(2) a {
+    #home-container main section:nth-child(2) a {
     width: 50%;
     }
 
-    main section:nth-child(3) {
+    #home-container main section:nth-child(3) {
     width: 100% !important;
     }
 
-    main section:nth-child(3) h2,
-    main section:nth-child(4) h2  {
+    #home-container main section:nth-child(3) h2,
+    #home-container main section:nth-child(4) h2  {
     font: 700 1.8em "montserrat", sans-serif !important;
     }
 
-    main section:nth-child(3) p {
+    #home-container main section:nth-child(3) p {
     width: 90%;
     }
 
-    main section:nth-child(4) a {
+    #home-container main section:nth-child(4) a {
     width: 50% !important;
     }
 
-    footer {
+    #home-container footer {
     flex-direction: column;
     }
 
-    footer #newsletter {
+    #home-container footer #newsletter {
     width: 100%;
     text-align: center;
     }
 
-    footer #company {
+    #home-container footer #company {
     width: 80%;
     margin: 0 auto;
     }
@@ -507,7 +694,7 @@ text-decoration: none;
     text-align: left;
     }
 
-    footer #newsletter input {
+    #home-container footer #newsletter input {
     border: 1px solid #fff;
     border-radius: var(--corner-radius);
     background: transparent;
@@ -517,7 +704,7 @@ text-decoration: none;
     margin: 10px 0;
     }
 
-    footer #newsletter input[type='submit'] {
+    #home-container footer #newsletter input[type='submit'] {
     position: sticky;
     top: -55px;
     left: 0;
@@ -528,11 +715,11 @@ text-decoration: none;
 
 
 @media(max-width: 600px) {
-    main section h1 {
+    #home-container main section h1 {
     font: 800 2.5em "montserrat", sans-serif !important;
     }
 
-    main section p {
+    #home-container main section p {
     font: 700 0.8em "Mulish", sans-serif !important;
     width: 100%;
     }
@@ -541,30 +728,30 @@ text-decoration: none;
         display: none;
     }
 
-    main section:nth-child(2) p {
+    #home-container main section:nth-child(2) p {
     width: 80%;
     line-height: 2.7em !important;
     }
 
-    main section:nth-child(2) a {
+    #home-container main section:nth-child(2) a {
     width: 65%;
     }
 
-    .row-container {
+    #home-container .row-container {
     flex-direction: column;
     width: 85% !important;
     }
 
-    main section:nth-child(4) h2  {
+    #home-container main section:nth-child(4) h2  {
     font: 700 1.4em "montserrat", sans-serif !important;
     }
 
-    main section:nth-child(4) p {
+    #home-container main section:nth-child(4) p {
     width: 80%;
     line-height: 2em !important;
     }
 
-    main section:nth-child(4) a {
+    #home-container main section:nth-child(4) a {
     width: 75% !important;
     }
 

@@ -5,6 +5,7 @@
     </div>
     <?php require 'includes/menu.php'; ?>
 </header>
+<div id="home-container">
 <main>
     <section>
        <div>
@@ -80,3 +81,4 @@
         </div>
     </footer>
 </main>
+</div>

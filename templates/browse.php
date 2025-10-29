@@ -5,8 +5,9 @@
     </div>
     <?php require 'includes/menu.php'; ?>
 </header>
+<div id="jobs-container">
 <main>
-   <header>
+   <header id="top">
        <h1>Jobs</h1>
        <div class="search">
            <input type="text" name="search" placeholder="Search for your dream job">
@@ -24,6 +25,7 @@
               </div>
               <div>&plus;</div>
           </header>
+          <div class="listing-content">
           <div class="listing-header">
              <h3>PHP Developer</h3>
              <p>$100k – $160k • Austin • In office  • Fulltime</p>
@@ -82,6 +84,7 @@
               <li><a href="">Apply for this position</a></li>
             </ul>
           </div>
+         </div>
        </div>
        </article>
        <article>
@@ -194,3 +197,4 @@
        </article>
    </section>
 </main>
+</div>
