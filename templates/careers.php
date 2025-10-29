@@ -1,15 +1,16 @@
-
-<header>
+<body style="background: #292AF9">
+<header class="top-menu">
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <menu><li><a href="/taskr/">Return to home</a></li></menu>
 </header>
+<div id="career-container">
 <main>
     <section>
        <h1>Build Your Future With Purpose</h1>
        <div id="content">
-          <img src="/taskr/public/images" alt="">
+          <img src="/taskr/public/images/model.png" alt="">
           <h3>Careers</h3>
           <div class="job-card">
               <h4>Software developer</h4>
@@ -86,3 +87,4 @@
        </div>
     </section>
 </main>
+</div>

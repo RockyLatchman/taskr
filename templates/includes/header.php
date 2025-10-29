@@ -12,4 +12,4 @@
         <link rel="stylesheet" href="http://localhost/taskr/public/css/main.css">
         <script src="http://localhost/taskr/public/js/main.js"></script>
     </head>
-    <body>
+  <?php if($_SERVER['REQUEST_URI'] !== '/taskr/careers') echo '<body>';  ?>
