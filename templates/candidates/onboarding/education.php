@@ -1,13 +1,14 @@
 
-<header>
+<header class="top-menu">
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <menu><li><a href="/taskr/">Return to home</a></li></menu>
 </header>
+<div class="setup-container">
 <main>
     <section>
-       <h1>Setup profile 2/4</h1>
+       <h2>Setup profile 2/4</h2>
        <form method="POST">
            <h3>Education</h3>
            <label for="education">University or community college</label>
@@ -19,3 +20,4 @@
        </form>
     </section>
 </main>
+</div>
