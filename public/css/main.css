@@ -307,7 +307,6 @@ background: var(--dark-blue);
 height: 350px;
 }
 
-
 #home-container footer #newsletter {
 width: 50%;
 height: 50vh;
@@ -509,22 +508,6 @@ padding: 0 0 10px 0;
 display: none;
 }
 
-#jobs-container main article .listing-content .listing-header h3 {
-
-}
-
-#jobs-container main article .listing-content .listing-header p:nth-child(1) {
-
-}
-
-#jobs-container main article .listing-content .listing-header p:nth-child(2) {
-
-}
-
-#jobs-container main article .listing-content .listing-header div {
-
-}
-
 #jobs-container main article .listing-content  h4 {
 font: var(--large-heading);
 font-size: 1.2em;
@@ -542,6 +525,24 @@ line-height: 2em;
 }
 
 /*
+
+#jobs-container main article .listing-content .listing-header h3 {
+
+}
+
+#jobs-container main article .listing-content .listing-header p:nth-child(1) {
+
+}
+
+#jobs-container main article .listing-content .listing-header p:nth-child(2) {
+
+}
+
+#jobs-container main article .listing-content .listing-header div {
+
+}
+
+
 #jobs-container main article .listing-content ul {
 
 }
@@ -565,13 +566,71 @@ color: var(--electric-blue);
 */
 
 
+/* Employers */
 
 
+#employers-container {
+width: 65%;
+margin: 5% auto 0 auto;
+}
+
+#employers-container main section h1 {
+font: 800 3em "montserrat", sans-serif;
+color: var(--electric-blue);
+text-align: center;
+padding-bottom: 35px;
+}
+
+#employers-container main section h3 {
+font: var(--large-heading);
+font-size: 1.1em;
+color: var(--electric-blue);
+text-align: left;
+margin: 15px 0;
+}
+
+#employers-container main section h3:last-of-type {
+margin-top: 35px;
+}
+
+#employers-container main section p {
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+line-height: 2em;
+}
+
+#employers-container main section ul {
+width: 100%;
+margin: 25px 0;
+}
 
 
+#employers-container main section ul li {
+display: inline-block;
+list-style-type: circle;
+margin: 5px 0;
+font: var(--primary-paragraph-text);
+font-weight: 600;
+color: var(--electric-blue);
+width: 100%;
+}
 
+#employers-container main section div {
+text-align: center;
+margin: 0 auto;
+border: var(--home-blue-border);
+border-radius: var(--corner-radius);
+width: 25%;
+height: 45px;
+}
 
-
+#employers-container main section div a {
+font: 400 0.9em "Mulish", sans-serif;
+color: var(--electric-blue);
+text-decoration: none;
+line-height: 3em;
+}
 
 
 @media(max-width: 1440px) {
