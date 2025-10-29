@@ -5,16 +5,17 @@
     </div>
     <?php require 'includes/menu.php'; ?>
 </header>
+<div id="top-careers-container">
 <main>
     <section>
        <h1>Top careers</h1>
        <p>Here are the top careers according to our research</p>
-       <div class="accordion-panel">
+       <div class="accordion-panel first">
           <header>
-              <h2>AI and Machine Learning Specialist</h2>
+              <h3>AI and Machine Learning Specialist</h3>
               <div>&plus;</div>
           </header>
-          <h2>Career overlook</h2>
+          <h3>Career overlook</h3>
            <span>11k positions currently listed</span>
           <p>
               An AI and Machine Learning (ML) Specialist designs, develops, and implements intelligent systems that can learn from data to solve complex business
@@ -86,7 +87,7 @@
     <section>
         <h2>Join Our Community</h2>
         <p>
-           Taskr is more than a tool; it's a growing community of ambitious professionals and forward-thinking companies. We are thrilled to be a part of
+           Taskr is more than a tool, it's a growing community of ambitious professionals and forward-thinking companies. We are thrilled to be a part of
            your story whether you’re here to find your next chapter or to write it by hiring an incredible team, we are here to help you succeed.
         </p>
         <p>Ready to take the next step?</p>
@@ -96,3 +97,4 @@
         </ul>
     </section>
 </main>
+</div>
