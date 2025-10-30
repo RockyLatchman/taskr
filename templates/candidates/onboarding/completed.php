@@ -1,13 +1,14 @@
 
-<header>
+<header class="top-menu">
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <menu><li><a href="/taskr/">Return to home</a></li></menu>
 </header>
+<div class="container">
 <main>
     <section>
-       <h1>You’re good to go</h1>
+       <h2>You’re good to go</h2>
        <div id="content">
           <h3>All Finished</h3>
           <p>
@@ -22,3 +23,4 @@
        </div>
     </section>
 </main>
+</div>
