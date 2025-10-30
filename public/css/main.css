@@ -26,6 +26,10 @@ body {
 background: var(--off-white);
 }
 
+form input::placeholder {
+padding-left: 10px;
+}
+
 header {
 display: flex;
 flex-direction: row;
@@ -1262,8 +1266,138 @@ cursor: pointer;
 height: 40px;
 }
 
+/* Work experience */
 
+#experience-container {
+width: 60%;
+margin: 2% auto 0 auto;
+}
 
+#experience-container h2 {
+font: 800 2em "montserrat", sans-serif;
+color: var(--electric-blue);
+text-align: center;
+margin: 15px auto;
+}
+
+#experience-container form {
+display: block;
+width: 50%;
+margin: 35px auto 0 auto;
+padding: 25px 35px;
+border: 1px solid var(--electric-blue);
+border-radius: var(--corner-radius);
+}
+
+#experience-container form h3 {
+width: 100%;
+margin: 15px auto 10px auto;
+padding: 0;
+font: var(--large-heading);
+font-size: 1.2em;
+font-weight: 700;
+color: var(--electric-blue);
+}
+
+#experience-container form label {
+font: var(--menu-text);
+color: var(--electric-blue);
+text-align: center;
+width: 100%;
+}
+
+#experience-container #resume,
+#experience-container #keywords {
+width: 100%;
+height: 35px;
+border-radius: var(--corner-radius);
+border: var(--home-blue-border);
+margin: 10px auto;
+outline: transparent;
+}
+
+#experience-container form input[type='checkbox'],
+#experience-container form input[type='radio']{
+margin: 0 5px 10px 0;
+}
+
+#experience-container form textarea {
+width: 100%;
+height: 100px;
+border-radius: var(--corner-radius);
+border: var(--home-blue-border);
+margin: 10px auto;
+outline: transparent;
+}
+
+#experience-container form input[type='file'] {
+width: 100%;
+height: 30px;
+text-indent: -10000000px;
+position: fixed;
+cursor: pointer;
+}
+
+#experience-container form div {
+border: var(--home-blue-border);
+border-radius: var(--corner-radius);
+font: var(--menu-text);
+color: var(--electric-blue);
+text-align: center;
+line-height: 3em;
+width: 100%;
+height: 40px;
+}
+
+#experience-container form .currency,
+#experience-container form .min-salary,
+#experience-container form .max-salary {
+width: 30.2%;
+height: 35px;
+border-radius: var(--corner-radius);
+border: var(--home-blue-border);
+margin: 0 10px 15px 0;
+outline: transparent;
+}
+
+#experience-container form button {
+width: 100%;
+height: 40px;
+border-radius: var(--corner-radius);
+border: var(--home-blue-border);
+margin: 10px auto;
+cursor: pointer;
+color: var(--electric-blue);
+}
+
+#experience-container form input[type='button'] {
+background:var(--electric-blue);
+border: none;
+border-radius: var(--corner-radius);
+color: var(--off-white);
+cursor: pointer;
+height: 40px;
+width: 100%;
+margin: 15px 0;
+}
+
+#experience-container form input[type='submit'] {
+color: var(--electric-blue);
+cursor: pointer;
+width: 100%;
+height: 45px;
+border-radius: var(--corner-radius);
+border: var(--home-blue-border);
+margin: 10px auto;
+outline: transparent;
+}
+
+#experience-container p {
+font: var(--menu-text);
+color: var(--electric-blue);
+text-align: center;
+margin: 10px 0;
+}
 
 /* sign in  */
 

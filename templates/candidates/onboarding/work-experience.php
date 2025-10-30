@@ -1,13 +1,14 @@
 
-<header>
+<header class="top-menu">
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <menu><li><a href="/taskr/">Return to home</a></li></menu>
 </header>
+<div id="experience-container">
 <main>
     <section>
-       <h1>Setup profile 3/4</h1>
+       <h2>Setup profile 3/4</h2>
        <form method="POST">
            <h3>Work experience</h3>
            <label for="resume">Resume</label>
@@ -21,30 +22,30 @@
            <h3>Seeking:</h3>
            <label for="fullname">
            <input type="checkbox" name="fullname" id="fullname">Full time
-           </label>
+           </label><br>
            <label for="part-time">
            <input type="checkbox" name="part-time">Part time
-           </label>
+           </label><br>
            <label for="contract">
            <input type="checkbox" name="contract" id="contract">Contract
-           </label>
+           </label><br>
            <label for="freelance">
            <input type="checkbox" name="freelance" id="freelance">Freelance
-           </label>
+           </label><br>
            <label for="internship">
            <input type="checkbox" name="internship" id="internship">Internship
-           </label>
+           </label><br>
            <h3>Job location</h3>
            <label>
            <input type="radio" name="location">100% remote
-           </label>
+           </label><br>
            <label>
            <input type="radio" name="location">Hybrid
-           </label>
+           </label><br>
            <label>
            <input type="radio" name="location">In-Office
-           </label>
-           <h3>Tell us about your interest in this profession</h3>
+           </label><br>
+           <h3>Interest in this profession</h3>
            <textarea name="interest"></textarea>
            <label for="keywords">Keywords(This is for search)</label>
            <input type="text" name="keywords" id="keywords" placeholder="JavaScript, Web Developer, UI Designer">
@@ -56,3 +57,4 @@
        </form>
     </section>
 </main>
+</div>
