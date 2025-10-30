@@ -1,13 +1,14 @@
 
-<header>
+<header class="top-menu">
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <menu><li><a href="/taskr/">Return to home</a></li></menu>
 </header>
+<div class="form-container">
 <main>
     <section>
-       <h1>Company details</h1>
+       <h2>Company details</h2>
        <form method="POST" action="/taskr/registration/complete">
            <h3>Company details</h3>
            <label for="companyname">Company name</label>
@@ -18,7 +19,7 @@
            <label>Location</label>
            <input type="text" name="city" id="city" placeholder="city">
            <select name="state">
-                <option>select country</option>
+                <option>Select state</option>
               	<option value="AL">Alabama</option>
                	<option value="AK">Alaska</option>
                	<option value="AZ">Arizona</option>
@@ -72,7 +73,6 @@
                	<option value="WY">Wyoming</option>
            </select>
            <select name="country">
-               <option>select country</option>
                <option value="AF">Afghanistan</option>
                <option value="AX">Åland Islands</option>
                <option value="AL">Albania</option>
@@ -311,7 +311,7 @@
                <option value="UA">Ukraine</option>
                <option value="AE">United Arab Emirates</option>
                <option value="GB">United Kingdom</option>
-               <option value="US">United States</option>
+               <option value="US" selected>United States</option>
                <option value="UY">Uruguay</option>
                <option value="UZ">Uzbekistan</option>
                <option value="VU">Vanuatu</option>
@@ -337,3 +337,4 @@
        </form>
     </section>
 </main>
+</div>
