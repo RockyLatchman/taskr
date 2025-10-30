@@ -1,13 +1,14 @@
 
-<header>
+<header class="top-menu">
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <menu><li><a href="/taskr/">Return to home</a></li></menu>
 </header>
+<div class="form-container">
 <main>
     <section>
-       <h1>Founder</h1>
+       <h2>Founder</h2>
        <form method="POST">
            <h3>Founder</h3>
            <label for="fullname">Fullname</label>
@@ -18,3 +19,4 @@
        </form>
     </section>
 </main>
+</div>
