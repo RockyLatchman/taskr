@@ -1152,9 +1152,6 @@ height: 40px;
 margin-top: 15px;
 }
 
-
-
-
 /* Add profile photo */
 
 
@@ -1527,7 +1524,9 @@ border: 1px solid var(--electric-blue);
 border-radius: var(--corner-radius);
 }
 
-.container #content p  {
+.container #content p,
+#registered p
+{
 font: var(--primary-paragraph-text);
 color: var(--electric-blue);
 font-weight: 500;
@@ -1537,7 +1536,9 @@ margin: 15px 0;
 }
 
 
-.container span a {
+.container span a,
+#registered div a
+{
 display: block;
 color: var(--electric-blue);
 cursor: pointer;
@@ -1551,6 +1552,16 @@ outline: transparent;
 text-decoration: none;
 line-height: 3.4em;
 text-align: center;
+}
+
+/* employer - registered */
+
+#registered {
+width: 50%;
+margin: 105px auto 0 auto;
+padding: 25px 35px;
+border: 1px solid var(--electric-blue);
+border-radius: var(--corner-radius);
 }
 
 /* sign in  */
