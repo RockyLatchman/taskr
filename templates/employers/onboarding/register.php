@@ -1,18 +1,19 @@
 
-<header>
+<header class="top-menu">
     <div class="logotype">
        <h1><a href="/taskr/">Taskr</a></h1>
     </div>
-    <menu><li><a href="/taskr/">Return home</a></li></menu>
+    <menu><li><a href="/taskr/">Return to home</a></li></menu>
 </header>
+<div class="form-container">
 <main>
     <section>
-       <h1>Employer account</h1>
+       <h2>Employer account</h2>
        <form method="POST">
            <h3>Create Account</h3>
            <label for="fullname">Fullname</label>
            <input type="text" name="fullname" id="fullname">
-           <label for="email">E-mail</label>
+           <label for="email">Work E-mail</label>
            <input type="email" name="email" id="email">
            <label for="password">Password</label>
            <input type="password" name="password" id="password">
@@ -22,3 +23,4 @@
        </form>
     </section>
 </main>
+</div>
